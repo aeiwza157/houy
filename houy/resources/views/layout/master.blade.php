@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>หวยออนใลน์ อันดับ 1 ในประเทศไทย</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" >
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
   </head>
   <body>
   <div class="header positon-relative">
@@ -16,6 +19,7 @@
             <input class="form-control mini-input" placeholder="รหัสผ่าน" >
             <button type="submit" class="btn btn-blue">เข้าสู่ระบบ</button>
             <a href="#" class="btn btn-blue">สมัครสมาชิก</a>
+            <a class="ml-3 text-white" href="#">ลืมรหัสผ่าน ?</a>
           </form>
       </div>
       <div class="main-concept-header">
@@ -28,10 +32,40 @@
             </div>
             </div>
       </div>
+      <div class="main-menu">
+        <ul class="nav main-lg-menu justify-content-center">
+            <li class="nav-item menu-link">
+              <a class="nav-link " href="#"><i class="fa fa-home"></i> หน้าแรก</a>
+            </li>
+            <li class="nav-item menu-link">
+              <a class="nav-link" href="#">แทงหวยออนใลน์</a>
+            </li>
+            <li class="nav-item menu-link new-option">
+              <a class="nav-link" href="#">ระบบสร้างรายได้</a>
+            </li>
+            <li class="nav-item menu-link">
+                <a class="nav-link" href="#">โปรโมชั่น</a>
+            </li>
+            <li class="nav-item menu-link">
+                <a class="nav-link" href="#">ข่าวสารและกิจกรรม</a>
+            </li>
+            <li class="nav-item menu-link">
+                <a class="nav-link" href="#">สมัครสมาชิก</a>
+            </li>
+            <li class="nav-item menu-link">
+                <a class="nav-link" href="#">ติดต่อเรา</a>
+            </li>
+        </ul>
+      </div>
   </div>
-  @yield('content')
   
-  <script src="https://code.jquery.com/jquery-3.5.1.js"  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="  crossorigin="anonymous"></script>
+  @yield('content')
+  <div class="footer">
+      <div class="bottom-footer w-100 p-3 text-center text-white">
+        <i class="fa fa-copyright"></i> COPYRIGHT 2019 SSSLOTTO.COM ALL RIGHTS RESERVED
+      </div>
+  </div>
+
   @yield('script')
   </body>
 </html>

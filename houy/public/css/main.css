@@ -30,3 +30,226 @@
     font-size: 60px;
     color: white;
 }
+.result-houy{
+    background-color: #04396b;
+    padding: 15px;
+}
+.main-menu{
+    background-color: #04396b;
+    text-align: center;
+}
+.menu-link{
+    color:white;
+    padding: 10px;
+    border-right: 2px solid #025b95;
+    font-size: 14px;
+    width: 170px;
+}
+.nav-link{
+    color: white !important;
+}
+.link{
+    /* width: 160px; */
+}
+.card-header{
+    color: white;
+    background-color: #025b95 !important;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+}
+.result-houy .card{
+    background-color: transparent;
+}
+.result-houy .card-body{
+    background-color: white;
+    padding: 0px !important;
+}
+.result{
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+.one{
+    width: 30%;
+}
+.two{
+    text-align: center;
+    width: 20%;
+    background-color: aliceblue;
+}
+.p-xg{
+    background: #0477c3;
+}
+.p-old{
+    background: #0787db;
+}
+.result p{
+    color: white;
+    padding: 6px;
+    margin-bottom: 6px;
+}
+.result strong{
+    color: #a60000;
+    font-size: 25px;
+}
+
+.main-lg-menu{
+    /* display: flex;
+    */
+    /* display: inline-flex;
+    flex-wrap: nowrap; 
+    margin: auto; */
+}
+.card-body .input-group{
+    width: 70%;
+}
+.menu-link:hover{
+    color:white;
+    text-decoration: none;
+}
+.select-before{
+    background-color: #025b95 !important;
+    border: none !important;
+    color: white !important;
+}
+.select-after{
+    background-color: #0787db !important;
+    border: none !important;
+    color: white !important;
+}
+.new-option{
+    position: relative;
+}
+.new-option::before{
+    content: "";
+    border-top: 25px solid transparent;
+    border-bottom: 26px solid transparent;
+    border-right: 25px solid #ffc800;
+    position: absolute;
+    transform: rotate(45deg);
+    left: -2px;
+    top: -14px;
+}
+.new-option::after{
+    content: "ใหม่";
+    position: absolute;
+    top: 5px;
+    transform: rotate(-49deg);
+    left: 4px;
+    font-size: 12px;
+    color: #04396b;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.about{
+    background-image: url('../image/about_bg.jpg');
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 600px;
+}
+.article{
+    background-image: url('../image/ar_bg.png?v=2');
+    /* background-attachment: fixed; */
+
+    background-size: cover;
+}
+.content-about{
+    padding-left: 60px !important;
+}
+.cycle-btn{
+    border-radius: 30px !important;
+    font-size: 17px !important;
+}
+.img-responsive{
+    width: 68%;
+}
+.img-border{
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+.houy-slide{
+    background-color: #04396b;
+    padding: 15px;
+}
+/* .section-houy{
+    padding: 10px;
+    background-color: white;
+}
+*/
+
+.slick-slide img{
+    margin: auto;
+    border: 2px solid white;
+} 
+.item-x{
+    height: 250px;
+    width: 350px;
+    background-image: url(https://dummyimage.com/300x250/cccccc/8f8f8f);
+    background-position: center;
+    margin-left: 3px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.justCrop{
+    padding: 10px;
+    /* background-color: white; */
+}
+.btn-width-res{
+    width: 45%;
+    margin: 3px;
+}
+.slick-prev{
+    left: -50px;
+}
+.slick-next:before{
+    font-size: 40px !important;
+}
+.slick-prev::before{
+    font-size: 40px !important;
+    left: -50px !important;
+    position: relative;
+}
+.bottom-footer {
+    background-color: #022648;
+}
+
+.header-h2{
+    margin: auto;
+    border: 3px solid #04396b;
+    padding: 14px;
+}
+.mini-article{
+    display: flex;
+}
+.mini-article .content{
+    margin-left: 5px;
+}
+/* .b1{
+    background: url('../image/25630911115254.jpg') !important;
+}
+.b2{
+    background: url('../image/25630912085224.jpg') !important;
+}
+.b3{
+    background: url('../image/25631029142936.jpg') !important;
+} */
