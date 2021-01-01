@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+*{
+    font-family: 'Sarabun', sans-serif;
+}
+.mini-input{
+    font-size: 14px !important;
+    margin-left: 10px;
+}
+.btn-blue{
+    background-color: #04396b !important;
+    color: white !important;
+    font-size: 14px !important;
+    margin-left: 10px;
+    width: 150px;
+}
+.form-login{
+    float: right;
+    background-color: #025b95;
+    border-bottom-left-radius: 20px;
+    padding: 7px 30px 7px 22px;
+    box-shadow: 0 3px 7px #022648;
+}
+.main-concept-header{
+    background-color: #025b95;
+    padding-top: 60px;
+}
+.text-brand{
+    font-family: 'Francois One', sans-serif;
+    font-size: 60px;
+    color: white;
+}
